@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import './../Styles/Player.css'
 
 const Player = ({ playerCoins, playerDamage, playerHealth, playerLevel }) => {
@@ -27,11 +26,5 @@ const Player = ({ playerCoins, playerDamage, playerHealth, playerLevel }) => {
     )
 }
 
-Player.propTypes = {
-    playerCoins: PropTypes.number.isRequired,
-    playerLevel: PropTypes.number.isRequired,
-    playerDamage: PropTypes.number.isRequired,
-    playerHealth: PropTypes.number.isRequired,
-};
 
 export default Player;

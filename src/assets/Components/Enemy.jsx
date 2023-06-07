@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import './../Styles/Enemy.css'
 
 const Enemy = ({ enemyHealth, enemyDamage, enemyLevel, }) => {
@@ -28,10 +27,6 @@ const Enemy = ({ enemyHealth, enemyDamage, enemyLevel, }) => {
     )
 }
 
-Enemy.propTypes = {
-    enemyHealth: PropTypes.number.isRequired,
-    enemyDamage: PropTypes.number.isRequired,
-    enemyLevel: PropTypes.number.isRequired,
-};
+
 
 export default Enemy;
