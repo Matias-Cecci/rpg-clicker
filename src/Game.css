@@ -1,0 +1,88 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.game-container h1 {
+  color: #333;
+}
+
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+button {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none
+}
+
+.actions-button-attack {
+  background-color: #C81616;
+  border-color: #C81616;
+  color: white;
+}
+
+.actions-button-attack:hover {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  color: white;
+}
+
+.actions-button-attack:active {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  color: white;
+  box-shadow: none;
+}
+
+.actions-button-damage {
+  background-color: #2F2DD6;
+  border-color: #2F2DD6;
+  color: white;
+}
+
+.actions-button-damage:hover {
+  background-color: #1585E8;
+  border-color: #1585E8;
+  color: white;
+}
+
+.actions-button-damage:active {
+  background-color: #1585E8;
+  border-color: #1585E8;
+  color: white;
+  box-shadow: none;
+}
+
+.actions-button-health {
+  background-color: #229C2B;
+  border-color: #229C2B;
+  color: white;
+}
+
+.actions-button-health:hover {
+  background-color: #11CB14;
+  border-color: #11CB14;
+  color: white;
+}
+
+.actions-button-health:active {
+  background-color: #11CB14;
+  border-color: #11CB14;
+  color: white;
+  box-shadow: none;
+}

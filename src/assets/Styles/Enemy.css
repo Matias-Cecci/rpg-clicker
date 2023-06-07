@@ -1,0 +1,33 @@
+.enemy {
+    background-color: #600d04;
+    margin-bottom: 20px;
+    min-width: 350px;
+  }
+  
+
+
+  .enemy-stats{
+    color: #fff;
+    margin-left: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .enemy h2{
+    font-size: 30px;
+  }
+  .enemy p {
+    font-size: 20px;
+
+  }
+
+  .health-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ccc;
+  }
+  
+  .health-bar-progress {
+    height: 100%;
+    background-color: green;
+    transition: width 0.3s ease-in-out;
+  }
